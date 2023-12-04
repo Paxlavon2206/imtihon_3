@@ -1,0 +1,144 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+.implement {
+    background: #edf3f8;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .implement__container {
+    display: flex;
+    flex-wrap: wrap;
+    //   justify-content: space-between;
+    column-gap: 125px;
+    align-items: center;
+  }
+
+  .implement__title {
+    color: #36536b;
+    padding-bottom: 24px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+  .implement__text {
+    color: #6c8294;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    max-width: 445px;
+  }
+  
+  @media (max-width: 1235px) {
+    .implement__container {
+      justify-content: center;
+      gap: 70px;
+    }
+    .implement__text {
+      max-width: 573px;
+      text-align: center;
+    }
+    .implement__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (max-width: 695px) {
+    .code__img1 {
+      width: 99.9% !important;
+    }
+    .code__img {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 467px) {
+    .implement__title {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 400;
+    }
+  }
+  
+  // simple
+  .simple {
+    padding-top: 40px;
+    background: #edf3f8;
+    padding-bottom: 70px;
+  }
+  .simple__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+  }
+  .phone__imgs {
+    display: flex;
+    column-gap: 54px;
+  }
+  .simple__title {
+    color: #36536b;
+    padding-bottom: 24px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+  .simple__text {
+    color: #6c8294;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    max-width: 445px;
+  }
+  @media (max-width: 1248px) {
+    .simple__container {
+      justify-content: center;
+      gap: 70px;
+      flex-direction: column-reverse;
+    }
+    .simple__text {
+      max-width: 573px;
+      text-align: center;
+    }
+    .simple__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (max-width: 786px) {
+    .phone1 {
+      width: 40% ;
+    }
+    .phone2 {
+      width: 40% ;
+    }
+    .phone__imgs {
+      justify-content: center;
+    }
+  }
+  @media (max-width: 467px) {
+    .simple__title {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 400;
+    }
+  }
+  
